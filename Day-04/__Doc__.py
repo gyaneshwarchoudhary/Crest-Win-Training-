@@ -61,5 +61,7 @@ linux processes:
    - bg, fg, kill -cont pid, kill -stop pid
    - load average: 1 5 15 min, 0.5 means 50% cpu usage, 1 means 100% cpu usage
    - zombie process, orphan process, init process
+   - priority process, nice value, renice command
+   - top command
  
 """
