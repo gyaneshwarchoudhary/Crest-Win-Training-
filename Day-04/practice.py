@@ -146,3 +146,4 @@ logger.info("The application has started successfully.")
 logger.error("Could not connect to the database!")
 
 
+
