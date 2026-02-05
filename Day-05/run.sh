@@ -12,3 +12,5 @@ else
     echo "Failed to execute '$user_command'"
     echo "Error details saved to '$output_file'"
 fi
+
+echo "i m writing it to test the commit"
