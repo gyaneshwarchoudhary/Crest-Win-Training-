@@ -142,8 +142,8 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 # Use it
-logger.info("The application has started successfully.")
-logger.error("Could not connect to the database!")
+logger.debug("The application has started successfully.")
+logger.critical("Could not connect to the database!")
 
 
 
