@@ -19,7 +19,7 @@ async def task_one():
     print("task 1 execution completed......")
 
 async def task_tow():
-    await asyncio.sleep(1)
+    await asyncio.sleep(2)
     print("task 2 completed")
 
 async def main():
