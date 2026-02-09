@@ -15,7 +15,7 @@ start = time.time()
 
 async def task_one():
     # time.sleep(3)
-    await asyncio.sleep()
+    await asyncio.sleep(3)
     print("task 1 execution completed......")
 
 async def task_tow():
